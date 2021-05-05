@@ -23,7 +23,7 @@ make format
 ```
 
 ### Current Rules
-- Each player takes two cards each from the top of a randomly shuffled deck provided by our endpoint (https://pickatale-backend-case.herokuapp.com/shuffle)
+- Each player takes two cards each from the top of a randomly shuffled deck
     - You take the first two cards, Bob takes the next two
 - Calculate the total sum of each players cards
     - Numbered cards have the value on the card
