@@ -15,7 +15,7 @@ init:
 
 .PHONY: run
 run:
-	python src/main.py
+	python src/api.py
 
 .PHONY: format
 format:

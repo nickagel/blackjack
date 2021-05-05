@@ -1,5 +1,5 @@
 from .card import Card
-from src.lib.utils.api_request import ApiRequest
+from lib.utils.api_request import ApiRequest
 
 
 class Deck:
