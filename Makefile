@@ -23,4 +23,4 @@ format:
 
 .PHONY: test
 test:
-	pytest -vvv
+	python -m pytest . -vvv

@@ -1,8 +1,5 @@
-from requests.sessions import should_bypass_proxies
-
-
-import requests
 import json
+import requests
 
 
 class ApiRequest:

@@ -4,12 +4,12 @@ class Card:
         self.value = card["value"]
 
     @property
-    def CLUBS(self):
-        return "C"
-
-    @property
     def DIAMONDS(self):
         return "D"
+
+    @property
+    def CLUBS(self):
+        return "C"
 
     @property
     def HEARTS(self):
@@ -18,9 +18,6 @@ class Card:
     @property
     def SPADES(self):
         return "S"
-
-    def get_suit_short_name(self):
-        return eval(f"self.{self.suit}")
 
     def get_card_value(self):
         if self.value in ["K", "Q", "J"]:
@@ -32,3 +29,6 @@ class Card:
 
     def get_formatted_card(self):
         return f"{self.get_suit_short_name()}{self.value}"
+
+    def get_suit_short_name(self):
+        return eval(f"self.{self.suit}")

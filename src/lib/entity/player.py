@@ -18,10 +18,10 @@ class Player:
     def reached_limit(self):
         return False if self.limit > self.total else True
 
-    def update_limit(self, limit):
-        self.limit = limit
-
     def set_hand(self, hand):
         for card in hand:
             self.add_card(card)
         self.blackjack = True if self.total == self.bust else False
+
+    def update_limit(self, limit):
+        self.limit = limit
